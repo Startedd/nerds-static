@@ -1,0 +1,1 @@
+var mapModule=document.querySelector(".contact-module"),mapOpener=document.querySelector(".map-btn"),mapExit=mapModule.querySelector(".exit");mapOpener.addEventListener("click",function(a){a.preventDefault(),mapModule.classList.add("contact-module-show")}),mapExit.addEventListener("click",function(a){a.preventDefault(),mapModule.classList.remove("contact-module-show")});
